@@ -1,5 +1,4 @@
 import re
-
 file = open(os.path.expanduser("~/Downloads/Evening_Run1.tcx"), 'r')
 for line in file:
     if re.match("            <DistanceMeters>", line):
